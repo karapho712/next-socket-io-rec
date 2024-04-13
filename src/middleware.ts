@@ -30,5 +30,5 @@ export default async function middleware(
   return authMiddleware(req, event);
 }
 export const config = {
-  matcher: ["/", "/login"],
+  matcher: ["/", "/login", "/chat"],
 };
